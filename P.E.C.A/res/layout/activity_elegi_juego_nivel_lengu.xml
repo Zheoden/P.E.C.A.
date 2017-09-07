@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="177dp"
+        android:text="@string/ahorcado"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/elegiElJuego"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:text="@string/historia"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHisto2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnHisto1"
+        android:layout_alignBottom="@+id/btnHisto1"
+        android:layout_toRightOf="@+id/btnHisto1"
+        android:text="2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHisto3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnHisto2"
+        android:layout_toRightOf="@+id/btnHisto2"
+        android:text="3"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHisto4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnHisto3"
+        android:layout_alignBottom="@+id/btnHisto3"
+        android:layout_toRightOf="@+id/btnHisto3"
+        android:text="4"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnHisto1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="1"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnAhor3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnAhor2"
+        android:layout_toRightOf="@+id/btnAhor2"
+        android:text="3" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnAhor2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAhor1"
+        android:layout_alignBottom="@+id/btnAhor1"
+        android:layout_toRightOf="@+id/btnAhor1"
+        android:text="2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnAhor4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAhor3"
+        android:layout_alignBottom="@+id/btnAhor3"
+        android:layout_alignLeft="@+id/btnHisto4"
+        android:text="4" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnAhor1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/btnHisto2"
+        android:text="1" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnVolverAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAhor1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:text="@string/volverAtras" 
+        android:textColor="#ffffff"/>
+    
+        <Button
+            android:id="@+id/btnCuentosInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnHisto2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="¿Qué hay que hacer?"
+            android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnAhorcadoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVolverAtras"
+        android:layout_alignLeft="@+id/btnCuentosInfo"
+        android:layout_marginBottom="15dp"
+        android:text="¿Qué hay que hacer?"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

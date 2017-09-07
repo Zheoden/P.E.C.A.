@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/elegiElJuego"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="23dp"
+        android:text="@string/memotest"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMemo1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="1" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnMemo2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnMemo1"
+        android:layout_alignBottom="@+id/btnMemo1"
+        android:layout_toRightOf="@+id/btnMemo1"
+        android:text="2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMemo3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnMemo2"
+        android:layout_alignBottom="@+id/btnMemo2"
+        android:layout_toRightOf="@+id/btnMemo2"
+        android:text="3"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMemo4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnMemo3"
+        android:layout_toRightOf="@+id/btnMemo3"
+        android:text="4"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnCas3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCas2"
+        android:layout_alignBottom="@+id/btnCas2"
+        android:layout_toRightOf="@+id/btnCas2"
+        android:text="3"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnCas2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCas1"
+        android:layout_alignBottom="@+id/btnCas1"
+        android:layout_toRightOf="@+id/btnCas1"
+        android:text="2" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnHisto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCas1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:text="@string/volverAtras" 
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="@string/cascada"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnCas4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCas3"
+        android:layout_alignBottom="@+id/btnCas3"
+        android:layout_toRightOf="@+id/btnCas3"
+        android:text="4" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnCas1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="1"
+        android:textColor="#ffffff" />
+    
+        <Button
+            android:id="@+id/btnCascadaInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnHisto1"
+            android:layout_alignLeft="@+id/btnMemoInfo"
+            android:layout_marginBottom="18dp"
+            android:text="¿Qué hay que hacer?"
+            android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnMemoInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/btnMemo2"
+        android:layout_marginBottom="14dp"
+        android:text="¿Qué hay que hacer?"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

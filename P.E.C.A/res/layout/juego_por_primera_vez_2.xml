@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout 
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/JuegoPorPrimeraVez"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/txtJuegoPorPrimeraVez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/juegoPorPrimeraVez"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMiNombreEs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtJuegoPorPrimeraVez"
+        android:layout_below="@+id/txtJuegoPorPrimeraVez"
+        android:layout_marginTop="51dp"
+        android:text="@string/miNombreEs"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtMiNombreEs"
+        android:layout_alignBottom="@+id/txtMiNombreEs"
+        android:layout_alignRight="@+id/txtJuegoPorPrimeraVez"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnYaTermine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/yaTermine" 
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/txtLosDaosIngresados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMiNombreEs"
+        android:layout_alignRight="@+id/etNombre"
+        android:layout_below="@+id/btnYaTermine"
+        android:layout_marginTop="21dp"
+        android:text="@string/losDatosIngresados"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnVolverAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/volverAtras"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

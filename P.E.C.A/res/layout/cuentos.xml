@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="${packageName}.${activityClass}"
+    android:background="@drawable/fondoliso2" >
+
+    <TextView
+        android:id="@+id/HistoriaPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <RadioGroup android:id="@+id/RadioGroup" android:layout_width="match_parent" android:layout_height="150dp" android:layout_alignLeft="@+id/HistoriaPrincipal" android:layout_below="@+id/HistoriaPrincipal" >
+        <RadioButton android:id="@+id/Opcion1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Opcion1" android:textColor="#ffffff"/>
+        <RadioButton android:id="@+id/Opcion2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Opcion2" android:textColor="#ffffff"/>
+        <RadioButton android:id="@+id/Opcion3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Opcion3" android:textColor="#ffffff"/>
+        <RadioButton android:id="@+id/Opcion4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Opcion4" android:textColor="#ffffff" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RadioGroup"
+        android:text="Siguiente" 
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/SiguienteNivelCuentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSiguiente"
+        android:layout_marginTop="24dp"
+        android:text="Siguiente Nivel"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_marginLeft="61dp"
+        android:layout_toRightOf="@+id/btnSiguiente"
+        android:text="Volver"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

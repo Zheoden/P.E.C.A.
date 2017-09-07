@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/fondoliso2">
+
+    <AbsoluteLayout
+        android:id="@+id/GameField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="50dp" >
+
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="5px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="5px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="5px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="320px"
+            android:layout_y="5px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="110px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="110px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="110px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="320px"
+            android:layout_y="110px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="215px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button09"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="215px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="215px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button11"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="320px"
+            android:layout_y="215px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button12"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="5px"
+            android:layout_y="320px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button13"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="110px"
+            android:layout_y="320px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button14"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="215px"
+            android:layout_y="320px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+
+        <Button
+            android:id="@+id/Button15"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_x="320px"
+            android:layout_y="320px"
+            android:background="@drawable/mt_fondocartas"
+            android:textSize="48px" />
+    </AbsoluteLayout>
+
+		<RelativeLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent" >
+		       <Button
+		            android:id="@+id/Reiniciar"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Reiniciar" 
+		                    android:textColor="#ffffff"/>
+		
+		        <Button
+		            android:id="@+id/Volver"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignParentRight="true"
+		            android:layout_alignParentTop="true"
+		            android:text="Volver" 
+		                    android:textColor="#ffffff"/>
+
+		        <Button
+		            android:id="@+id/SiguienteNivelMemo"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerHorizontal="true"
+		            android:layout_centerVertical="true"
+		            android:text="Siguiente Nivel"
+		            android:textColor="#ffffff" />
+		
+		</RelativeLayout>
+       
+</LinearLayout>

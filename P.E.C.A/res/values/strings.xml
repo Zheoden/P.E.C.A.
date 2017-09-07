@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PECA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="juegoPorPrimeraVez">Juego por primera vez</string>
+    <string name="ingresaTuNombre">INGRESA TU NOMBRE</string>
+    <string name="imagenDeLasLetras">Imagen de las letras</string>
+    <string name="imagenDelLogo">Imagen del logo</string>
+    <string name="miNombreEs">Mi nombre es:</string>
+    <string name="naciEnElAnio">Nací en el año</string>
+    <string name="anios">años</string>
+    <string name="yEstoyEn">Y estoy en</string>
+    <string name="grado">grado</string>
+    <string name="yaTermine">Ya terminé</string>
+    <string name="losDatosIngresados">Los datos ingresados son sólo para guardar el progreso del jugador.</string>
+    <string name="volverAtras">Volver atrás</string>
+    <string name="title_activity_actividad2">Actividad2</string>
+    <string name="title_activity_memo_test">MemoTest</string>
+    <string name="elegiElArea">Elegí el área</string>
+    <string name="lengua">Lengua</string>
+    <string name="matematica">Matemática</string>
+    <string name="sobreLasAreas">Sobre las áreas</string>
+    <string name="progreso">Progreso</string>
+    <string name="title_activity_elegi_el_area">Elegi_el_area</string>
+    <string name="title_activity_elegi_el_area2">ElegiElArea2</string>
+    <string name="title_activity_cuentos">Cuentos</string>
+    <string name="title_activity_ahorcado">Ahorcado</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="volver">Volver</string>
+    <string name="ingresarLetra">Ingresar letra</string>
+    <string name="letrasQueNoEstan">Letras que no están en la palabra:</string>
+    <string name="intentos">Intentos:</string>
+    <string name="pista">Pista: </string>
+    <string name="arriesgar">Arriesgar</string>
+
+    <string-array name="palabra1">
+        <item>auto</item>
+        <item>casa</item>
+        <item>caramelo</item>
+        <item>perro</item>
+        <item>campera</item>
+        <item>elefante</item>
+        <item>musica</item>
+        <item>celular</item>
+        <item>remera</item>
+        <item>mochila</item>
+        <!-- 10 -->
+        <item>bicicleta</item>
+        <item>puerta</item>
+        <item>pulcera</item>
+        <item>martillo</item>
+        <item>maestra</item>
+        <item>billetera</item>
+        <item>peca</item>
+        <item>milanesa</item>
+        <item>carta</item>
+        <item>anillo</item>
+        <!-- 20 -->
+        <item>carpeta</item>
+        <item>corazon</item>
+        <item>torta</item>
+        <item>calesita</item>
+        <item>pelo</item>
+        <item>teclado</item>
+        <item>silla</item>
+        <item>pantalon</item>
+        <item>zapatilla</item>
+        <item>lluvia</item>
+        <!-- 30 -->
+
+    </string-array>
+    <string-array name="pista1">
+        <item>Vehículo que hay en las calles</item>
+        <item>Lugar en donde todos vivimos</item>
+        <item>Pequeño dulce que comen los más chicos</item>
+        <item>Mascota que muchos tenemos en nuestra casa</item>
+        <item>Abrigo que nos ponemos cuando hace frio</item>
+        <item>Animal muy grande que tiene una trompa</item>
+        <item>Las canciones que escuchamos forman parte de esto</item>
+        <item>Teléfono móvil</item>
+        <item>Lo que nos ponemos abajo del buzo</item>
+        <item>Lo que usamos para guardar las cosas de la escuela</item>
+        <!-- 10 -->
+        <item>Vehículo que tiene dos ruedas y pedales</item>
+        <item>Aquello que tenemos que abrir para entrar</item>
+        <item>Objetos que nos ponemos en las muñecas</item>
+        <item>Se utiliza para martillar</item>
+        <item>La mujer que nos enseña en la escuela</item>
+        <item>Donde se guarda toda la plata</item>
+        <item>El nombre de este juego</item>
+        <item>Aquello que solemos comer con papas fritas</item>
+        <item>Algo que se envia por correo</item>
+        <item>Lo que uno se pone el el dedo al casarse</item>
+        <!-- 20 -->
+        <item>Lugar donde se escribe lo que se aprende en la escuela </item>
+        <item>Lo que hace que la sangre del corazón circule</item>
+        <item>Aquello que comemos en los cumpleaños</item>
+        <item>Juego que da vueltas. Suele estar en las plazas</item>
+        <item>Lo que tenemos en la cabeza</item>
+        <item>Lo que se utiliza para escribir en la computadora</item>
+        <item>Aquello que utilizamos para sentarnos</item>
+        <item>Lo que nos ponemos en las piernas para vestirnos</item>
+        <item>Lo que utilizamos en los pies usualmente</item>
+        <item>Agua que cae del cielo cuando el día está feo</item>
+
+        <!-- 30 -->
+    </string-array>
+    <string-array name="palabra2">
+        <item>correr</item>
+        <item>saltar</item>
+        <item>jugar</item>
+        <item>comenzar</item>
+        <item>romper</item>
+        <item>perder</item>
+        <item>cortar</item>
+        <item>bailar</item>
+        <item>cocinar</item>
+        <item>pagar</item>
+        <!-- 10 -->
+        <item>amar</item>
+        <item>responder</item>
+        <item>tirar</item>
+        <item>preguntar</item>
+        <item>poner</item>
+        <item>venir</item>
+        <item>sonreir</item>
+        <item>escuchar</item>
+        <item>comer</item>
+        <item>empezar</item>
+        <!-- 20 -->
+
+        <item>lavar</item>
+        <item>viajar</item>
+        <item>volver</item>
+        <item>terminar</item>
+        <item>mejorar</item>
+        <item>mentir</item>
+        <item>mirar</item>
+        <item>repetir</item>
+        <item>quemar</item>
+        <item>pulsar</item>
+        <!-- 30 -->
+
+    </string-array>
+    <string-array name="pista2">
+        <item>Moverse rápido a un lugar</item>
+        <item>Levantarse del piso rápidamente</item>
+        <item>Hacer algo para divertirse y entretenerse</item>
+        <item>Empezar algo</item>
+        <item>Quebrar o hacer pedazos una cosa</item>
+        <item>Dejar de tener algo que antes tenías</item>
+        <item>Dividir una cosa o separar sus partes con algún instrumento cortante</item>
+        <item>Mover el cuerpo al compás de la música</item>
+        <item>Preparar alimentos para poderlos comer</item>
+        <item>Dar plata a alguien por algo</item>
+        <!-- 10 -->
+        <item>Querer mucho a alguien</item>
+        <item>Contestar algo que se pregunta</item>
+        <item>Dejar caer algo apropósito</item>
+        <item>Interrogar por algo</item>
+        <item>Dejar un objeto en cierto lugar</item>
+        <item>Trasladarse o llegar hasta donde está el que habla</item>
+        <item>Reírse levemente</item>
+        <item>Prestar atención a lo que se dice</item>
+        <item>Masticar un alimento y pasarlo al estómago</item>
+        <item>Comenzar algo</item>
+        <!-- 20 -->
+
+        <item>Hacer que algo pase de estar sucio a estar limpio</item>
+        <item>Desplazarse de un lado a otro</item>
+        <item>Regresar al mismo sitio</item>
+        <item>Finalizar una tarea</item>
+        <item>Hacer que algo sea mejor</item>
+        <item>No decir la verdad</item>
+        <item>Observar algo</item>
+        <item>Realizar la misma acción más de una vez</item>
+        <item>Prender fuego algo</item>
+        <item>Apretar un boton</item>
+        <!-- 30 -->
+
+
+    </string-array>
+    <string-array name="palabra3">
+        <item>grande</item>
+        <item>alto</item>
+        <item>redondo</item>
+        <item>gordo</item>
+        <item>argentino</item>
+        <item>viejo</item>
+        <item>nuevo</item>
+        <item>feo</item>
+        <item>lindo</item>
+        <item>hermoso</item>
+        <!-- 10 -->
+        <item>roto</item>
+        <item>util</item>
+        <item>simpatico</item>
+        <item>oscuro</item>
+        <item>facil</item>
+        <item>generoso</item>
+        <item>cruel</item>
+        <item>moderno</item>
+        <item>curioso</item>
+        <item>acido</item>
+        <!-- 20 -->
+
+        <item>dulce</item>
+        <item>molesto</item>
+        <item>creativo</item>
+        <item>rapido</item>
+        <item>dificil</item>
+        <item>inteligente</item>
+        <item>poderoso</item>
+        <item>delgado</item>
+        <item>rubio</item>
+        <item>comodo</item>
+        <!-- 30 -->
+
+    </string-array>
+    <string-array name="pista3">
+        <item>Supera el tamaño normal</item>
+        <item>De gran estatura</item>
+        <item>De forma circular o esférica</item>
+        <item>Alguien con tamaño más grande a lo normal</item>
+        <item>Que nació en la República Argentina</item>
+        <item>Ya tiene muchos años</item>
+        <item>Recién creado o fabricado</item>
+        <item>De aspecto malo o desfavorable</item>
+        <item>Algo bello o bonito</item>
+        <item>Algo muy lindo</item>
+        <!-- 10 -->
+        <item>Que está quebrado o partido en dos o más partes</item>
+        <item>Algo que puede utilizarse para algo</item>
+        <item>Alguien agradable, que inspira simpatía o la muestra</item>
+        <item>Que carece de luz o claridad</item>
+        <item>Que cuesta poco trabajo</item>
+        <item>Que hace las cosas desinteresado</item>
+        <item>Que le gusta hacer el mal o ver el sufrimiento de los otros</item>
+        <item>Algo reciente o nuevo. Que existe desde hace poco</item>
+        <item>Que tiene curiosidad</item>
+        <item>Algo que tiene sabor agrio. No es dulce.</item>
+        <!-- 20 -->
+
+        <item>De sabor agradable y suave al paladar, como la miel o el azúcar</item>
+        <item>Alguien que causa molestia</item>
+        <item>Alguien que tiene ideas originales</item>
+        <item>Veloz. Que se mueve con rapidez.</item>
+        <item>Algo que cuesta mucho. </item>
+        <item>Alguien que tiene mucha capacidad intelectual</item>
+        <item>Alguien con mucho poder</item>
+        <item>Alguien flaco</item>
+        <item>Con color de pelo claro. Parecido al amarillo</item>
+        <item>Algo agradable y que proporciona bienestar</item>
+        <!-- 30 -->
+
+
+    </string-array>
+    <string-array name="palabra4">
+        <item>paraguas</item>
+        <item>serpiente</item>
+        <item>zanahoria</item>
+        <item>estrella</item>
+        <item>anteojos</item>
+        <item>microfono</item>
+        <item>ventana</item>
+        <item>telefono</item>
+        <item>guitarra</item>
+        <item>escritor</item>
+        <!-- 10 -->
+        <item>demostrar</item>
+        <item>arrestar</item>
+        <item>entrometer</item>
+        <item>estirar</item>
+        <item>montar</item>
+        <item>martillear</item>
+        <item>decorar</item>
+        <item>ir</item>
+        <item>arreglar</item>
+        <item>esperar</item>
+        <!-- 20 -->
+
+        <item>colocado</item>
+        <item>estirado</item>
+        <item>claro</item>
+        <item>enmarcado</item>
+        <item>destruido</item>
+        <item>derrotado</item>
+        <item>volcado</item>
+        <item>lustrado</item>
+        <item>manchado</item>
+        <item>limpiado</item>
+        <!-- 30 -->
+
+    </string-array>
+    <string-array name="pista4">
+        <item>Utilizado para taparse de la lluvia</item>
+        <item>Animal pequeño y largo que se arrastra por el piso</item>
+        <item>Verdura naranja que ayuda a la vista</item>
+        <item>Aquellos pequeños puntos brillan todas las noches en el cielo</item>
+        <item>Objeto que ayuda a ver mejor</item>
+        <item>Objeto que permite aumentar el volumen de la voz</item>
+        <item>Abertura de la pares que sirve para dar luz y ventilación</item>
+        <item>Medio de comunicación que permite comunicarse con otros</item>
+        <item>Instrumento musical con 6 cuerdas</item>
+        <item>Alguien que se dedica a escribir</item>
+        <!-- 10 -->
+        <item>Probar y demostrar que algo es verdad</item>
+        <item>Poner a alguien en prisión</item>
+        <item>Meterse en algo que no corresponde</item>
+        <item>Alargar una cosa tirando de sus extremos</item>
+        <item>Ponerse encima de algo</item>
+        <item>Dar golpes con el martillo</item>
+        <item>Adornar o embellecer algo</item>
+        <item>Moverse de un lugar hacia otro</item>
+        <item>Poner algo en orden y darle mejor aspecto</item>
+        <item>Tener esperanza de conseguir lo que se desea</item>
+        <!-- 20 -->
+
+        <item>Objeto que fue dejado en un lugar</item>
+        <item>Algo que se encuentra alargado</item>
+        <item>Con mucha luz</item>
+        <item>Algo que está puesto en un marco</item>
+        <item>Algo que se encuentra roto</item>
+        <item>Alguien que fue vencido</item>
+        <item>Contenido caído</item>
+        <item>Algo que tiene mucho brillo</item>
+        <item>Algo contiene manchas y está sucio </item>
+        <item>Algo a lo que se le quito la suciedad</item>
+        <!-- 30 -->
+
+
+    </string-array>
+
+    <string name="title_activity_elegir_juego_ynivel">ElegirJuegoYNivel</string>
+    <string name="elegiElJuego">Elegí el juego que querés jugar</string>
+    <string name="title_activity_elegir_juego_nivel_mate">ElegirJuegoNivelMATE</string>
+    <string name="memotest">Memotest matemático</string>
+    <string name="cascada">Cascada de caramelos</string>
+    <string name="title_activity_elegi_juego_nivel_lengu">ElegirJuegoNivelLENGUA</string>
+    <string name="historia">Armá tu historia!</string>
+    <string name="ahorcado">Ahorcado</string>
+    <string name="title_activity_golosinas">Golosinas</string>
+    <string name="title_activity_ganaste">Ganaste</string>
+
+</resources>
